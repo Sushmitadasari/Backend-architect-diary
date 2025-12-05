@@ -23,7 +23,7 @@ const server=http.createServer((req,res)=>{
     
     else{
         res.writeHead(200,{'Content-Type':'text/plain'});
-        res.end('Hello, this is from backend server!\n');
+        res.end('Hello, this is from backend server\n');
     }
 });
 
