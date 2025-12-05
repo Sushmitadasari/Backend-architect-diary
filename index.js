@@ -13,7 +13,7 @@ app.get('/users', (req, res) => {
 app.get('/products', (req, res) => {
     const products = [
         {name: 'Laptop', price: 1000},
-        {name: 'Phone', price: 500}
+        {name: 'Phone', price: 5000}
     ];
     res.json(products);
 });
